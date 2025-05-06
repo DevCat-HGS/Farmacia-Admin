@@ -15,9 +15,9 @@ app.use(cors({
 
 app.use(express.json())
 
-// app.get('/',(req,res)=>{
-//     res.status(200).send({message: "Works like a charm"})
-// })
+app.get('/',(req,res)=>{
+    res.status(200).send({message: "Works like a charm"})
+})
 
 let productRoutes = require('./routes/productRoutes')
 app.use('/api/products', productRoutes)
