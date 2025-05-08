@@ -15,7 +15,6 @@ COPY . .
 
 # Variables de entorno
 ENV PORT=5000
-ENV MONGO_URI=mongodb+srv://DevHaroldGS:7SKFNR6ewkN6Uam@mydatabase.mm0b2.mongodb.net/?retryWrites=true&w=majority&appName=farmacia-admin
 
 # Exponer el puerto
 EXPOSE 5000
